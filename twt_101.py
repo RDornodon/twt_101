@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):a,b=map(int,I().split());c=sorted(map(int,I().split()));N=lambda v:next((x for x,y in enumerate(c)if v<y),a);print(*(N(int(f))-N(int(e)-1)for e,f in[I().split()for _ in'*'*b]))
